@@ -16,7 +16,10 @@ export class SuggestionsComponent {
 
   constructor() { }
 
-  playVideo(video){
+  ngOnInit() {
   }
 
+  playVideo(video){
+
+  }
 }
