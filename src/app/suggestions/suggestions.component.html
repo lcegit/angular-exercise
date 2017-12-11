@@ -1,0 +1,12 @@
+<h2>Suggested Videos</h2>
+
+<p><i>Click on a video to play</i></p>
+<ul>
+  <li *ngFor="let video of videos" (click)="selectVideo(video)">
+    Name: {{video.name}}
+    Liked: {{video.liked}}
+  </li>
+</ul>
+
+<video-detail *ngIf="selectedVideo" [video]="selectedVideo"></video-detail>
+<p *ngIf="isShown">This should be hidden or shown</p>

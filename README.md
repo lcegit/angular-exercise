@@ -1,5 +1,12 @@
 # AngularExercise
 
+1. Where in the file structure is the component file located? **A:** The component is located in the root (app folder within src)
+2. What is the decorator, and what information does the decorator have? **A:** It modifies the library class without changing the original, it tells Angular that a particular class should belong to a module, component, imports or service, providers and declarations etc.
+3. Where is the template file located? Now add a paragraph with your name in the template **A:** The index file in src references the view in the root folder.
+4. How do we add our component to a view? **A:** We specify the css selector and call it from there.
+5. Can we add our component to the index file? **A:** Yes
+6. Is it possible to add the component to the app.component.html file? **A:** You can render from the component.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
 ## Development server
