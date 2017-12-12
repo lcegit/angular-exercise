@@ -15,7 +15,6 @@ import { CommentComponent } from './comment/comment.component';
   ],
   imports: [
     BrowserModule,
-    NgModule,
     FormsModule
   ],
   providers: [],
