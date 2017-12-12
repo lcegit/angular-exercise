@@ -20,6 +20,14 @@ export class SuggestionsComponent {
   }
 
   playVideo(video){
+  }
 
+  toggleText(){
+    // if (this.isShown) {
+    //   this.isShown = false
+    // } else {
+    //   this.isShown = true
+    // }
+    this.isShown = !this.isShown;
   }
 }
